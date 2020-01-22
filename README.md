@@ -42,7 +42,7 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    
    ![](https://vmfarms.com/f05fd8da2dbe5a63a66609dbedb80f65.svg)
    
-   Refernce: 
+   Reference: 
    - Make project directory and work into that directory
    - Create the file "app.py" and include the python code into this file
    - Create another file "requirements.txt"
