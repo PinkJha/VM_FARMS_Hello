@@ -16,11 +16,11 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    **To Dockerize the application**
    - Make project directory and work into that directory
    - Create the file "app.py" and include the python code into this file
-   - Create another file "need.txt" 
+   - Create another file "requirements.txt" 
    - Create Dockerfile with the Alpine image
    - Create docker-compose.yml file 
    - To start up the application:**$ docker-compose up**
-   - Go to the localhost:5000 and the web browser will be opened with the "Hello, World!" message
+   - Go to the localhost:8080 and the web browser will be opened with the "Hello, World!" message
    
    2) With EC2 instance
    - Launch EC2 instance with RHEL AMI and define security groups:    
@@ -34,5 +34,5 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - Create Dockerfile with the Alpine image
    - Create docker-compose.yml file 
    - To start up the application:**$ docker-compose up**
-   - Go to the public IP of EC2 server:5000 and the web browser will be opened with the "Hello, World!" message
+   - Go to the public IP of EC2 server:8080 and the web browser will be opened with the "Hello, World!" message
    
