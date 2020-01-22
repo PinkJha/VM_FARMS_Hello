@@ -5,7 +5,7 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
 
 ## Dockerize application in two ways with Docker-compose. 
 
-1) With local machine 
+With local machine 
    *Used Linux machine here(CentOS7)*
    
    **To install Docker**
@@ -27,7 +27,8 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - Create docker-compose.yml file 
    - To start up the application:**$ docker-compose up**
    - Go to the localhost:8080 and the web browser will be opened with the "Hello, World!" message
- 2) With AWS cloud server
+   
+With AWS cloud server
    - Launch EC2 instance with RHEL AMI and define security groups.    
      [make sure to allow all traffic for all ports in all range along with SSH port(22) and HTTP port(80).]
    - Used Mobaxterm for the SSH connection (works similar like PuTTY).
