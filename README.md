@@ -1,18 +1,18 @@
-# Deployement of application using Docker-compose
-
-## "Hello, World" using Python and Flask
+# Deployement of application using Docker-compose                                                   
+                                                                                  
+## "Hello, World" using Python and Flask                                                                           
 Create minimal "Hello, World" API with endpoint and keyword arguments
 
 ## Dockerize application in two ways with Docker-compose. 
 
-With local machine 
+### With local machine ###
    *Used Linux machine here(CentOS7)*
    
    **To install Docker**
    - Log into the system with SUDO priviledges. 
    - Update the system: sudo yum update -y
    - Install Docker: sudo yum install docker-engine -y
-   - Start Docker: sudo service docker start
+   - Start Docker: sudo service docker start   
    - verify: sudo docker run hello-world
    
    **To install Docker-compose**
@@ -28,7 +28,7 @@ With local machine
    - To start up the application:**$ docker-compose up**
    - Go to the localhost:8080 and the web browser will be opened with the "Hello, World!" message
    
-With AWS cloud server
+### With AWS cloud server ###
    - Launch EC2 instance with RHEL AMI and define security groups.    
      [make sure to allow all traffic for all ports in all range along with SSH port(22) and HTTP port(80).]
    - Used Mobaxterm for the SSH connection (works similar like PuTTY).
@@ -43,3 +43,13 @@ With AWS cloud server
    - To start up the application:**$ docker-compose up**
    - Go to the EC2 public IP address:8080 and the web browser will be opened with the "Hello, World!" message
    
+   ![](https://vmfarms.com/f05fd8da2dbe5a63a66609dbedb80f65.svg)
+   
+
+
+
+
+
+
+
+
