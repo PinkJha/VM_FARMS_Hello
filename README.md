@@ -21,7 +21,7 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    
    **To Dockerize the application**
    *GIT and Github account is required as a prerequesite*
-   - Clone the repository: git clone https://github.com/PinkJha/VM__FARMS_Hello.git .
+   - Clone the repository: git clone https://github.com/PinkJha/VM_FARMS_Hello.git .
    - Go into the ptoject directory VM_FARM_Hello 
    - To start up the application:**$ docker-compose up **
    - Go to the http://localhost:5000/ and the web browser will be opened with the "Hello, World!" message. 
@@ -35,7 +35,7 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - Install docker and docker-compose as mentioned in above steps. 
   
    **To Dockerize the application**
-   - Clone the repository: git clone https://github.com/PinkJha/VM__FARMS_Hello.git .
+   - Clone the repository: git clone https://github.com/PinkJha/VM_FARMS_Hello.git .
    - Go into the ptoject directory VM_FARM_Hello 
    - To start up the application:**$ docker-compose up **
    - Go to the EC2 public IP address:5000 and the web browser will be opened with the "Hello, World!" message
