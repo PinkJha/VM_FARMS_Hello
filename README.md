@@ -40,7 +40,6 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - To start up the application:**$ docker-compose up **
    - Go to the EC2 public IP address:5000 and the web browser will be opened with the "Hello, World!" message
    
-   ![](https://vmfarms.com/f05fd8da2dbe5a63a66609dbedb80f65.svg)
    
    Reference: 
    - Make project directory and work into that directory
