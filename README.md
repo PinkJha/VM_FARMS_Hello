@@ -26,7 +26,7 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - To start up the application:**$ docker-compose up **
    - Go to the http://0.0.0.0:5000 and the web browser will be opened with the "Hello, World!" message. 
    - Go to the http://0.0.0.0:5000/hello and the web browser will be opened with the "Hello, Stranger!" message.
-   - Go to the http://0.0.0.0:5000/hello/name(any name) and the web browser will be opened with the "Hello, name!" message.
+   - Go to the http://0.0.0.0:5000/hello/name (any name) and the web browser will be opened with the "Hello, name!" message.
    
 ### With AWS cloud server ###
    - Launch EC2 instance with RHEL AMI and define security groups.    
