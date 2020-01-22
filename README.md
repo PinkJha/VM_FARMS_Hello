@@ -21,13 +21,10 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    
    **To Dockerize the application**
    *GIT and Github account is required as a prerequesite*
-   - Clone the repository: git clone 
-   - 
-   -  
-   - 
-   - 
-   - To start up the application:**$ docker-compose up**
-   - Go to the localhost:8080 and the web browser will be opened with the "Hello, World!" message
+   - Clone the repository: git clone https://github.com/PinkJha/VM__FARMS_Hello.git .
+   - Go into the ptoject directory VM_FARM_Hello 
+   - To start up the application:**$ docker-compose up **
+   -  Go to the localhost:5000 and the web browser will be opened with the "Hello, World!" message
    
 ### With AWS cloud server ###
    - Launch EC2 instance with RHEL AMI and define security groups.    
@@ -36,9 +33,10 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - Install docker and docker-compose as mentioned in above steps. 
   
    **To Dockerize the application**
-   - Make project directory and work into that directory
-   - To start up the application:**$ docker-compose up**
-   - Go to the EC2 public IP address:8080 and the web browser will be opened with the "Hello, World!" message
+   - Clone the repository: git clone https://github.com/PinkJha/VM__FARMS_Hello.git .
+   - Go into the ptoject directory VM_FARM_Hello 
+   - To start up the application:**$ docker-compose up **
+   - Go to the EC2 public IP address:5000 and the web browser will be opened with the "Hello, World!" message
    
    ![](https://vmfarms.com/f05fd8da2dbe5a63a66609dbedb80f65.svg)
    
