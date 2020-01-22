@@ -20,11 +20,12 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
    - To set permission: sudo chmod +x /usr/local/bin/docker-compose  
    
    **To Dockerize the application**
-   - Make project directory and work into that directory
-   - Create the file "app.py" and include the python code into this file
-   - Create another file "requirements.txt" 
-   - Create Dockerfile with the Alpine image
-   - Create docker-compose.yml file 
+   *GIT and Github account is required as a prerequesite*
+   - Clone the repository: git clone 
+   - 
+   -  
+   - 
+   - 
    - To start up the application:**$ docker-compose up**
    - Go to the localhost:8080 and the web browser will be opened with the "Hello, World!" message
    
@@ -36,15 +37,17 @@ Create minimal "Hello, World" API with endpoint and keyword arguments
   
    **To Dockerize the application**
    - Make project directory and work into that directory
-   - Create the file "app.py" and include the python code into this file
-   - Create another file "requirements.txt" 
-   - Create Dockerfile with the Alpine image
-   - Create docker-compose.yml file 
    - To start up the application:**$ docker-compose up**
    - Go to the EC2 public IP address:8080 and the web browser will be opened with the "Hello, World!" message
    
    ![](https://vmfarms.com/f05fd8da2dbe5a63a66609dbedb80f65.svg)
    
+   Refernce: 
+   - Make project directory and work into that directory
+   - Create the file "app.py" and include the python code into this file
+   - Create another file "requirements.txt"
+   - Create Dockerfile with the Alpine image
+   - Create docker-compose.yml file
 
 
 
